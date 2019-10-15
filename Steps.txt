@@ -1,0 +1,29 @@
+Answer No. 1
+
+1.Git Repo is cloned. 
+ git clone https://github.com/d-tejas/scripts.git
+
+a. AWS console is accessed and logged-in with credentials.
+b. EC2 instance is created(ubuntu- Free tier).
+c. EC2 instance is created-ubuntu@ip-172-31-2-242:
+   EC2 instance is accessed from terminal-
+ ~/Downloads$ sudo ssh -i "dbdatraders.pem" ubuntu@ec2-13-232-242-252.ap-south-1.compute.amazonaws.com
+
+   sudo apt-get update
+d. 
+   Install Mysql sudo apt-get install mysql-server
+   Start Mysql   sudo systemctl start mysql   
+   Test create database traders;
+        create table nwemp(id number, name varchar);  
+	insert into nwemp(1,'raj')
+	insert into nwemp(2,'ravi')
+        select * from nwemp;
+
+   
+e. sudo apt install default-jdk 
+   ubuntu@ip-172-31-2-242:~$ mkdir java_code 
+   ubuntu@ip-172-31-2-242:~$ cd java_code/
+   ubuntu@ip-172-31-2-242:~/java_code$ nano HelloWorld.java
+   ubuntu@ip-172-31-2-242:~/java_code$ javac HelloWorld.java 
+
+f. Install Docker- ubuntu@ip-172-31-2-242:~$ sudo apt install docker.io
